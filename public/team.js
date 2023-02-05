@@ -11,11 +11,11 @@ fetch('./teams.json')
 
     let i = 1;
     
-    json.teams.forEach(element => {
+    json.forEach(element => {
         let row = table.insertRow(-1);
         let cell0 = row.insertCell(0);
         cell0.innerHTML = element.name
-        element.mates.forEach(mate=> {
+        element.members.forEach(mate=> {
             let cell = row.insertCell(i);
             cell.innerHTML = mate;
             i++;
