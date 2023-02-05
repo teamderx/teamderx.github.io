@@ -5,18 +5,23 @@ let data
 
 fetch('./teams.json')
 .then((response) => response.json())
-.then((json) => console.log(json));
+.then((json) => {
 
+    let table = document.getElementById("table-id")
 
-let table = document.getElementById("table-id")
-
-data.array.forEach(element => {
-    team = document.createElement("tr");
-    team.innerHTML = element.name;
-    element.mates.forEach(mate => {
-        m = document.createElement("td");
-        m.innerHTML = mate;
-        team.appendChild(m);
+    let i = 1;
+    
+    json.teams.forEach(element => {
+        let row = table.insertRow(-1);
+        let cell0 = row.insertCell(0);
+        cell0.innerHTML = element.name
+        element.mates.forEach(mate=> {
+            let cell = row.insertCell(i);
+            cell.innerHTML = mate;
+            i++;
+        });
+        i = 1
     });
-    table.appendChild(team);
+    
 });
+
