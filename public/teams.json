@@ -1,0 +1,13 @@
+{ 
+  "teams" : [
+    {
+        "name": "Bulldog",
+        "mates":["Benjamin", "Charles", "Charles", "Zacharys"]
+    },
+    {
+        "name": "Chihuahua",
+        "mates":["Xavier", "Raph", "Jean", "Jobs"]
+    }
+  ]
+}
+  
