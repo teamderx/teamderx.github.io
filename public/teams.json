@@ -1,10 +1,1 @@
-[
-    {
-        "name": "Bulldog",
-        "members":["Benjamin", "Charles", "Charles", "Zacharys"]
-    },
-    {
-        "name": "Chihuahua",
-        "members":["Xavier", "Raph", "Jean", "Jobs"]
-    }
-  ]
+[{"name": "Team 0", "members": ["Zach Mann", "Matt", "Jonathan ", "Antoine Gaulin"], "score": -69.40089160583886}, {"name": "Team 1", "members": ["Faneva R.", "Gollum's wife (aka Y.O) \ud83d\ude18", "Charle Xavier", "Bernard Ye"], "score": 82.04309242138444}, {"name": "Team 2", "members": ["Zachary Ouellet", "Rose Gauvin", "To Han Kieu", "Zo\u00e9 Paradis"], "score": 36.09568890808177}, {"name": "Team 3", "members": ["David Normandin", "Max", "Thomas tzeng souvanlasy", "Stephanie Ste-marie"], "score": 28.92843864188884}, {"name": "Team 4", "members": ["Eric Yan", "Ali Boutouche", "charles brossard", "F\u00e9lix Beaudoin"], "score": 40.440386208742794}, {"name": "Team 5", "members": ["Pierrot Lamontagne", "Guillaume Ricard", "L\u00e9o Banno-Cloutier", "Paul Blart"], "score": 56.98601612549439}, {"name": "Team 6", "members": ["Justine O ", "Benjamin Dancause", "Justine S ", "test"], "score": 153.87374744079017}, {"name": "Team 7", "members": ["Tarek Halabi", "Sylvain Martel", "Medhi B"], "score": 128.64626131895065}, {"name": "Team 8", "members": ["Romain L ", "Charles-Francis Damedey", "Yolan Gingra"], "score": 80.98601612549439}]
